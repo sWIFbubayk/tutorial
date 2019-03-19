@@ -9,11 +9,11 @@ public class Greeting {
 	 * Should write "Hello, <greetingRecipient>!" to stdout
 	 */
 	public void greet() {
-		System.out.println(greetingRecipient);
+		System.out.println("Hallo, " + greetingRecipient + "!");
 	}
 
 	public static void main(String[] args) {
-		Greeting g = new Greeting("Donald");
+		Greeting g = new Greeting("Hans");
 		g.greet();
 	}
 }
